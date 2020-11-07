@@ -2,6 +2,7 @@
 Python flappy bird game using pygame
 # Usage
 Download Python
-Open command prompt, type in
-  pip install pygame
+
+Open command prompt, type in 'pip install pygame'
+
 Run file via Python IDLE or another Python IDE
