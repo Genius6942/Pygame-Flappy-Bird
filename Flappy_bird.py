@@ -45,7 +45,7 @@ over.y=200
 bot_enabled=False
 if input("Use bot? [Y/N]: ").lower().startswith('y'): bot_enabled=True
 # create the display surface object 
-game_size=1000
+game_size=600
 s=game_size/2
 win = pygame.display.set_mode((game_size, game_size)) 
 
@@ -80,7 +80,7 @@ clock=pygame.time.Clock()
 #Create all Classes/Objects
 class Title(pygame.sprite.Sprite):
     def __init__(self):
-        pygame.sprite.Sprite.__init__(self)
+        super(pygame.sprite.Sprite)
         self.image=pygame.image.load('flappy_main.png')
         self.rect=self.image.get_rect()
         self.rect.center = 300, 100
