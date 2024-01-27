@@ -1,4 +1,4 @@
-#This game was made by Adventure10
+#This game was made by haelp
 #You do not have permision to copy more than 3 lines unless I tell you
 #You can share this with anyone.
 #------------------------------------------------------------------------------#
